@@ -1,0 +1,30 @@
+
+
+*******************************************************************************
+Sun Oct  6 11:59:45 2019
+
+
+FIT:    data read from "tiempos_operacion.txt"
+        format = z
+        #datapoints = 1000
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*log(x)/log(2)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a            
+   0 9.0400991276e-13   0.00e+00  9.63e-08    5.729021e-09
+   2 7.8172929497e-13  -1.56e-02  9.63e-10    6.386749e-09
+
+After 2 iterations the fit converged.
+final sum of squares of residuals : 7.81729e-13
+rel. change during last iteration : -1.56111e-07
+
+degrees of freedom    (FIT_NDF)                        : 999
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.79734e-08
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.82512e-16
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 6.38675e-09      +/- 5.262e-11    (0.8238%)
